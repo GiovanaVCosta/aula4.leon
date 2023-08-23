@@ -139,7 +139,7 @@ function mostrarTodosNumerosMultiplosppar(){
             const novoSpan = document.createElement('span')
             novoSpan.textContent = Number(numeros[indice]) + 2
             container.appendChild(novoSpan)
-         } else if(numeros[indice] % 3 == 0 ){
+         } else if(numeros[indice] % 2 != 0 ){
                 const novoSpan = document.createElement('span')
                 novoSpan.textContent = Number(numeros[indice]) + 1
                 container.appendChild(novoSpan)
